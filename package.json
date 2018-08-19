@@ -1,10 +1,11 @@
 {
   "name": "template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a simple app that allows users to create cards and add them to their deck (stored in session). They should also be able to remove cards from their deck.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +17,14 @@
     "express-session": "^1.15.6",
     "knex": "^0.13.0",
     "pg": "^7.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurenchavez212/hearthstoneCardPicker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laurenchavez212/hearthstoneCardPicker/issues"
+  },
+  "homepage": "https://github.com/laurenchavez212/hearthstoneCardPicker#readme"
 }
